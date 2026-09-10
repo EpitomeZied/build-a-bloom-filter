@@ -1,0 +1,54 @@
+{
+  "course": "build-bloom-filter",
+  "language": "cpp",
+  "language_id": 54,
+  "entrypoint": "main.cpp",
+  "version": 1,
+  "content_hash": "4085e2f5884bccec",
+  "lessons": [
+    {
+      "slug": "idea",
+      "tests_hash": "ce0b75d4562a"
+    },
+    {
+      "slug": "fp-rate",
+      "tests_hash": "1d67219c8096"
+    },
+    {
+      "slug": "hashing",
+      "tests_hash": "50dfa93c5428"
+    },
+    {
+      "slug": "tuned-bloom",
+      "tests_hash": "c16233efe211"
+    },
+    {
+      "slug": "union-intersection",
+      "tests_hash": "b0a6c2d2bc91"
+    },
+    {
+      "slug": "counting-bloom",
+      "tests_hash": "41800e131afb"
+    },
+    {
+      "slug": "scalable",
+      "tests_hash": "548b802f1bf7"
+    },
+    {
+      "slug": "cuckoo",
+      "tests_hash": "0813c3d2a911"
+    },
+    {
+      "slug": "applications",
+      "tests_hash": "1038c0d39847"
+    },
+    {
+      "slug": "monitoring",
+      "tests_hash": "56faf1bc81af"
+    },
+    {
+      "slug": "full-bloom",
+      "tests_hash": "84f150aa69c7"
+    }
+  ]
+}
