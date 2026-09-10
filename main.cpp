@@ -50,9 +50,9 @@ public:
 };
 
 int main() {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
-#endif
+// #ifndef ONLINE_JUDGE
+//     freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
+// #endif
 
     BloomFilter bf;
     string line;
@@ -64,10 +64,11 @@ int main() {
         string cmd, arg;
         ss >> cmd;
 
-        arg = line.substr(cmd.size() + 1);
         if (cmd == "ADD") {
+            arg = line.substr(cmd.size() + 1);
             cout << bf.add(arg) << "\n";
         } else if (cmd == "CHECK") {
+            arg = line.substr(cmd.size() + 1);
             cout << bf.check(arg) << "\n";
         } else if (cmd == "BITS") {
             cout << bf.get_bits() << "\n";
